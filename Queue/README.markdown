@@ -1,4 +1,4 @@
-# Queue
+# Queue ✔️
 
 > This topic has been tutorialized [here](https://www.raywenderlich.com/148141/swift-algorithm-club-swift-queue-data-structure)
 
@@ -102,6 +102,11 @@ This results by copying memory from one place to another which is a constant-tim
 There are only a limited number of unused spots at the end of the array. When the last `xxx` gets used, and you want to add another item, the array needs to resize to make more room.
 
 Resizing includes allocating new memory and copying all the existing data over to the new array. This is an **O(n)** process which is relatively slow. Since it happens occasionally, the time for appending a new element to the end of the array is still **O(1)** on average or **O(1)** "amortized".
+
+✏️ Cracking the coding interview
+<img width="803" alt="image" src="https://user-images.githubusercontent.com/33254676/113789877-feb4d400-977a-11eb-9c0b-056452ddec72.png">
+
+✏️ https://lemire.me/blog/2017/01/23/resizing-arrays-can-be-slow-in-swift/
 
 The story for dequeueing is different. To dequeue, we remove the element from the *beginning* of the array. This is always an **O(n)** operation because it requires all remaining array elements to be shifted in memory.
 
