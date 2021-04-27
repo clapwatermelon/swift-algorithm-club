@@ -1,4 +1,4 @@
-# Queue ✔️
+# Queue
 
 > This topic has been tutorialized [here](https://www.raywenderlich.com/148141/swift-algorithm-club-swift-queue-data-structure)
 
