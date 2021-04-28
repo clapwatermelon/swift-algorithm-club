@@ -1,4 +1,4 @@
-# Selection Sort
+# Selection Sort ✔️
 
 Goal: To sort an array from low to high (or high to low).
 
