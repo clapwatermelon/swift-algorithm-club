@@ -1,4 +1,4 @@
-# Quicksort
+# Quicksort ✔️
 
 Goal: Sort an array from low to high (or high to low).
 
