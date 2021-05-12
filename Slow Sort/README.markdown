@@ -1,4 +1,4 @@
-# Slow Sort
+# Slow Sort ✔️
 
 Goal: Sort an array of numbers from low to high (or high to low).
 
@@ -15,6 +15,8 @@ We can decompose the problem of sorting n numbers in ascending order into
 ## The code
 
 Here is an implementation of slow sort in Swift:
+
+>  정렬된 양쪽 끝 중 더 큰 쪽을 구간의 가장 끝에 놓고, 나머지 부분에 대해 다시 slowsort를 재귀 호출하는 구조
 
 ```swift
 func slowSort(_ i: Int, _ j: Int, _ numberList: inout [Int]) {
