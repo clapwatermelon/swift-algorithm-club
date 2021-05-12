@@ -1,4 +1,6 @@
-# Bubble Sort
+# Bubble Sort ✔️
+
+>  두 인접한 원소를 검사하여 정렬하는 방법
 
 Bubble sort is a sorting algorithm that is implemented by starting in the beginning of the array and swapping the first two elements only if the first element is greater than the second element. This comparison is then moved onto the next pair and so on and so forth. This is done until the array is completely sorted. The smaller items slowly “bubble” up to the beginning of the array. Sometimes this algorithm is refered as Sinking sort, due to the larger, or heavier elements sinking to the end of the array.
 
