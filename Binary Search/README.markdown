@@ -1,6 +1,7 @@
 # Binary Search
 
 Goal: Quickly find an element in an array.
+> 오름차순으로 정렬된 리스트에서 특정한 값의 위치를 찾는 알고리즘
 
 Let's say you have an array of numbers and you want to determine whether a specific number is in that array, and if so, at which index.
 
