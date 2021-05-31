@@ -39,6 +39,7 @@ On average, the linear search algorithm needs to look at half the values in the 
 ## Divide and conquer
 
 The classic way to speed this up is to use a *binary search*. The trick is to keep splitting the array in half until the value is found.
+> 속도를 높이는 고전적인 방법은 이진 검색을 사용, 값을 찾을 때까지 배열을 계속 절반으로 나누는 것
 
 For an array of size `n`, the performance is not **O(n)** as with linear search but only **O(log n)**. To put that in perspective, binary search on an array with 1,000,000 elements only takes about 20 steps to find what you're looking for, because `log_2(1,000,000) = 19.9`. And for an array with a billion elements it only takes 30 steps. (Then again, when was the last time you used an array with a billion items?)
 
